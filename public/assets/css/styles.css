@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital@0;1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat ALternates", sans-serif;
+  background: #000;
+  color: #ffffff;
+  max-width: 900px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+body header h1 {
+  font-family: "Press start 2P", sans-serif;
+  font-size: 48px;
+  color: #ffff00;
+  text-align: center;
+}
+body header p {
+  font-weight: bold;
+  font-style: oblique;
+  text-align: center;
+}
+body main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0 0 0;
+}
+body main #cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+body main #cards .card {
+  background: #fff;
+}
+body main #cards .card figure {
+  width: 250px;
+}
+body main #cards .card figure img {
+  width: 100%;
+  transition: all 0.5s;
+}
+body main #cards .card figure img:hover {
+  transform: translateY(-50px);
+}
+body main #cards .card .text-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+body main #cards .card .text-card button {
+  padding: 7px 30px;
+  border: 1px solid #f90;
+}
+
+/*# sourceMappingURL=styles.css.map */
